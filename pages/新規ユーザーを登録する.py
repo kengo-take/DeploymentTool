@@ -2,9 +2,13 @@ import streamlit as st
 import streamlit_authenticator as stauth
 import yaml
 from yaml.loader import SafeLoader
+import const
 
 with open('config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
+
+st.set_page_config(page_icon="📝")
+st.markdown(const.HIDE_ST_STYLE, unsafe_allow_html=True)
 
 # Pre-hashing all plain text passwords once
 # stauth.Hasher.hash_passwords(config['credentials'])
