@@ -13,7 +13,7 @@ credentials:
       password_hint: ??
       roles: null
     jsmith:
-      email: uu045081@gmail.com
+      email: bcd@gmail.com
       failed_login_attempts: 0
       first_name: John
       last_name: Smith
@@ -24,7 +24,7 @@ credentials:
       - editor
       - viewer
     rbriggs:
-      email: rbriggs@gmail.com
+      email: cde@gmail.com
       failed_login_attempts: 0
       first_name: Rebecca
       last_name: Briggs
@@ -33,7 +33,7 @@ credentials:
       roles:
       - viewer
     take:
-      email: kengo@hiryu.co.jp
+      email: def@gmail.com
       first_name: kengo
       last_name: takeuchi
       logged_in: false
